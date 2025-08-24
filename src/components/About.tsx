@@ -5,23 +5,23 @@ const About = () => {
   const benefits = [
     {
       icon: TrendingUp,
-      title: "Smarter, Modern Web Design",
-      description: "We create professional, mobile-friendly websites that are fast, easy to navigate, and optimized for Google. Every design is focused on user experience and conversions, turning visitors into paying customers. With custom logos and branding packages, we ensure your business looks consistent and professional across all platforms"
+      title: "Boost Revenue",
+      description: "Increase sales by 30% on average with AI-powered customer insights and automation"
     },
     {
       icon: Clock,
-      title: "AI-Powered Growth & Support", 
-      description: "We leverage AI to help small businesses work smarter. From AI-assisted content creation and chatbots for 24/7 support to advanced analytics and mockups, we save you time, cut costs, and help you stay ahead of the competition"
+      title: "Save Time", 
+      description: "Automate repetitive tasks and focus on what matters most - growing your business"
     },
     {
       icon: DollarSign,
-      title: "Affordability & Scalability",
-      description: "Cost-effective solutions compared to large agencies, designed with growth in mind so your systems can scale as you expand, with tiered packages to fit any budget"
+      title: "Reduce Costs",
+      description: "Cut operational expenses by up to 40% with smart AI solutions"
     },
     {
       icon: Users,
-      title: "Smart Device Integration",
-      description: "Help businesses modernize their offices or stores with smart tech (automation, cameras, displays, IoT) while improving efficiency and security with smart locks, cameras, and sensors"
+      title: "Delight Customers",
+      description: "Provide 24/7 support and personalized experiences that keep customers coming back"
     }
   ];
 
@@ -63,7 +63,7 @@ const About = () => {
           <div className="bg-white/10 backdrop-blur-lg rounded-xl p-8 border border-white/20">
             <h3 className="text-2xl font-bold text-white mb-4">Ready to Transform Your Business?</h3>
             <p className="text-gray-300 mb-6">
-              Join over 10+ small businesses that have already supercharged their operations with Hypersonic AI solutions.
+              Join over 500+ small businesses that have already supercharged their operations with Hypersonic AI solutions.
             </p>
             <button
               onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
