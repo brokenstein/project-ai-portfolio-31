@@ -19,7 +19,7 @@ const Hero = () => {
           {/* Brand Logo */}
           <div className="flex items-center justify-center mb-2 md:mb-8">
             <img 
-              src="/lovable-uploads/5670c1c0-f773-41da-8c0f-0b51adddda4c.png" 
+              src="/lovable-uploads/a5d87ec3-fe77-4f60-b670-491f720d2f04.png" 
               alt="Hypersonic - AI Solutions for Small Business" 
               className="h-56 md:h-72 w-auto"
             />
